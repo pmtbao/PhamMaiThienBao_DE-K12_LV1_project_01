@@ -1,7 +1,0 @@
-#!/bin/bash
-mlr --csv cut -f cast tmdb-movies.csv > cast.csv
-oIFS = "$IFS"
-IFS = $'\n'
-for line in  $(cat tail -n +2 cast.csv )
-echo "array of cast: ${arr_cast[1]}"
-
